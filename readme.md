@@ -95,7 +95,3 @@ Here are some example workflows using Multi Repo Git:
    ```bash
    mgit -all gh pr create --title "Fix issue" --body "Description of the fix"
    ```
-
-## Final Thoughts
-
-Multi Repo Git simplifies the process of managing multiple repositories by allowing you to run `git` and `gh` commands across them simultaneously. Whether you need to execute a command on all repositories using the `-all` flag or prefer selecting specific ones through the interactive picker, this tool provides a flexible and efficient solution.
