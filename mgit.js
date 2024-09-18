@@ -11,14 +11,14 @@ const { spawnSync } = require('child_process');
  * Displays usage instructions.
  */
 function displayUsage() {
-  console.log('Usage: node sww.js [-all] <command> [args...]');
+  console.log('Usage: node mgit.js [-all] <command> [args...]');
   console.log('Commands:');
   console.log('  git <args...>');
   console.log('  gh <args...>');
   console.log('Examples:');
-  console.log('  node sww.js git status');
-  console.log('  node sww.js gh pr list');
-  console.log('  node sww.js -all git pull origin main');
+  console.log('  node mgit.js git status');
+  console.log('  node mgit.js gh pr list');
+  console.log('  node mgit.js -all git pull origin main');
 }
 
 const reposFile = path.join(os.homedir(), '.sww-repos');

@@ -2,7 +2,7 @@
   "name": "multi-repo-git",
   "version": "1.0.0",
   "description": "A tool to manage running git and gh commands across multiple repos.",
-  "main": "sww.js",
+  "main": "mgit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
