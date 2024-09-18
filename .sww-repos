@@ -1,0 +1,19 @@
+{
+  "repositories": [
+    {
+	  "key" : "gc",
+      "name": "WooCommerce Gift Cards",
+      "path": "/Users/chris/Repos/woocommerce-gift-cards/"
+    },
+	{
+	  "key" : "bis",
+	  "name": "WooCommerce Back In Stock Notifications",
+	  "path": "/Users/chris/Repos/woocommerce-back-in-stock-notifications/"
+	},
+	{
+	  "key" : "pb",
+	  "name": "WooCommerce Product Bundles",
+	  "path": "/Users/chris/Repos/woocommerce-product-bundles/"
+	}
+  ]
+}
