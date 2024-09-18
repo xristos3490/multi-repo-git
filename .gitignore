@@ -1,0 +1,21 @@
+# Editors
+project.xml
+project.properties
+/nbproject/private/
+.buildpath
+.project
+.vscode
+.settings*
+sftp-config.json
+.idea
+.vscode
+
+# Build tools
+/node_modules/
+npm-debug.log
+
+# OS X metadata
+.DS_Store
+
+# Windows junk
+Thumbs.db
