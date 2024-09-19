@@ -21,20 +21,20 @@ function displayUsage() {
   console.log('  node mgit.js -all git pull origin main');
 }
 
-const reposFile = path.join(os.homedir(), '.sww-repos');
+const reposFile = path.join(os.homedir(), '.mgit-repos');
 
 let reposData;
 try {
   const data = fs.readFileSync(reposFile, 'utf8');
   reposData = JSON.parse(data);
 } catch (err) {
-  console.error(chalk.red('Error: Failed to load .sww-repos file.'));
-  console.error('Please ensure that .sww-repos exists in your home directory and is correctly formatted.');
+  console.error(chalk.red('Error: Failed to load .mgit-repos file.'));
+  console.error('Please ensure that .mgit-repos exists in your home directory and is correctly formatted.');
   process.exit(1);
 }
 
 if (!reposData.repositories || !Array.isArray(reposData.repositories)) {
-  console.error(chalk.red('Error: .sww-repos file is incorrectly formatted.'));
+  console.error(chalk.red('Error: .mgit-repos file is incorrectly formatted.'));
   console.error('It should contain a "repositories" array with repository definitions.');
   process.exit(1);
 }

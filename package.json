@@ -1,6 +1,6 @@
 {
   "name": "multi-repo-git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to manage running git and gh commands across multiple repos.",
   "main": "mgit.js",
   "scripts": {
